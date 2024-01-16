@@ -1,0 +1,236 @@
+@media only screen and (min-width: 425px) and (max-width: 768px){
+
+ .navigation{
+    display: none;
+ }
+
+ .phone-header{
+    display:block;
+}
+
+.section2{
+    display: none;
+}
+
+.section2-phone{
+    position: relative;
+}
+
+.section2-phone > img:nth-child(1){
+        position: absolute;
+        top: 14px;
+        left: 18px;
+}
+
+.section2-phone > img:nth-child(2){
+    position: absolute;
+    top:14px;
+    right:18px;
+}
+
+.phone-banner-text{
+    display: flex;
+    height:104px;
+    flex-direction: column-reverse;
+}
+
+.phone-banner-text img:nth-child(1){
+    width: 177.572px;
+    height: 16.337px;
+}
+
+.phone-banner-text img:nth-child(2){
+    width: 170.572px;
+    height: 16.337px;
+}
+
+.all-nav{
+    display: none;
+}
+
+.noida-india{
+    display: none;
+}
+
+
+section.Article-allpost {
+    margin-top: 50px;
+}
+
+
+.Article-allpost .main-hero {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+h5.card-title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.Sarthak-div {
+    padding-top: 10px;
+}
+
+.famous {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text {
+    margin-left: 15px;
+}
+
+.hero-text h5 {
+    margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.card-body h3 {
+    width: 80%;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.eye-share {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -19px;
+    left: 63px;
+}
+
+.share {
+    padding: 5px 12px;
+    margin-left:170px;
+    background: #EDEEF0;
+    padding: -14px 18px;
+}
+
+.views-text {
+    margin-left: 10px;
+}
+
+p.card-text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.views-text p {
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.card.artical-box.Education {
+    margin-top: 30px;
+}
+
+.finance {
+    display: flex;
+}
+
+.clender {
+    display: flex;
+}
+
+.clender .clender-text h5 {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    margin-bottom: 0px;
+
+}
+
+.ahmedabad {
+    display: flex;
+    margin-left: 89px;
+}
+
+.ahmedabad-text h5 {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.Visit-Website {
+    border: 1px solid #A9AEB8;
+    border-radius: 8px;
+    height: 38px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.Visit-Website a {
+    font-family: IBM Plex Sans;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #E56135;
+
+}
+
+.time-jobe {
+    color: #02B875;
+    border: 1px solid #A9AEB8;
+    border-radius: 8px;
+    height: 38px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.time-jobe a {
+    color: #02B875;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+}
+
+
+
+@media only screen and (min-width:768px) and (max-width:2560px){
+    .section2-phone{
+        display: none;
+    }
+
+
+    .section2{
+        display: block;
+    }
+
+    .all-nav{
+        display:block;
+    }
+    
+}
